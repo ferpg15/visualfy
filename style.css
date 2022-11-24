@@ -1,0 +1,135 @@
+body {
+    font-size: 62.5%;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}
+header{
+    background-color: black;
+    margin-top: 0;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    
+   
+   
+    
+    
+
+}
+#enlace{
+    padding: 2rem 1rem;
+}
+#logo {
+    width: 35%;
+}
+
+header nav {
+    background-color: black;
+    font-size: 1rem;
+    
+    
+    
+}
+header nav ul {
+    
+    padding: 1.8rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+header nav ul li {
+    
+    padding: 1rem 1rem;
+    
+}
+header nav ul li a {
+    font-size: 1.5rem;
+    color: whitesmoke;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    
+    border-top: 2px solid white;
+    color: wheat;
+}
+h1{
+    
+    font-size: 4rem;
+    text-align: center;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+ img{
+    width: 50%;
+}
+ p{
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 2rem;
+    padding-top: 3rem;
+}
+#beneficios{
+    display: block;
+
+}
+#beneficios ul{
+    list-style: square;
+}
+#beneficios ul li{
+    font-size: 1.5rem;
+}
+.apartado{
+    margin-top: 8rem;
+}
+
+#descarga{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+#descarga img{
+    width: 80%;
+}
+#media iframe{
+    padding: 0 1.5rem;
+}
+main{
+    padding-bottom: 6rem;
+}
+
+footer{
+    border-top: 1px solid white;
+    padding: 1rem;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer ul li a{
+    color: white;
+    font-size: 1rem;
+}
+footer ul li a:hover:not(.active){
+    background-color:white;
+    color: black;
+    
+}
+
+
+
+
+
